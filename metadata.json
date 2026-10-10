@@ -1,0 +1,8 @@
+{
+  "name": "Arogya Healthcare Coordination",
+  "description": "Healthcare coordination platform connecting doctor consultations, diagnostic tests, doorstep sample collection, visual health records, and continuous care journeys.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}

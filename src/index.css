@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --botanica-ground: #F6F1E7;
+    --botanica-ink: #14382E;
+    --botanica-sage: #A9B9A0;
+    --botanica-terracotta: #A94B2F;
+    --botanica-lilac: #CFC9E8;
+    --botanica-apricot: #F0CDB5;
+  }
+
+  body {
+    font-family: 'Figtree', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F6F1E7;
+    color: #14382E;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  }
+}
+
+/* Botanical shapes from Arogya Botanica Design System */
+.shape-arch {
+  border-radius: 40px 40px 16px 16px;
+}
+
+.shape-leaf {
+  border-radius: 28px 8px 28px 8px;
+}
+
+.shape-folded {
+  position: relative;
+  border-radius: 16px 4px 16px 16px;
+}
+
+.bg-dawn {
+  background: linear-gradient(135deg, #A9B9A0 0%, #CFC9E8 52%, #F0CDB5 100%);
+}
+
+.bg-thread-gradient {
+  background: linear-gradient(90deg, #A9B9A0 0%, #CFC9E8 50%, #F0CDB5 80%, #A94B2F 100%);
+}
